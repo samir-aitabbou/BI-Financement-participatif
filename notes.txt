@@ -1,0 +1,24 @@
+--> tous doit étre automatisé !! dès le nettoyage jusqu'a la fin 
+--> pour le rapport : justifiez les methodes utilisés et interpretez les réultats.
+
+
+
+1) - nature des donnéees:signification du variable (categoriel, numérique)
+   - forme: encodage (texte, numérique ...)
+
+2) Association entre les variables:
+	- var numériques
+	- var categoriel
+	- 1 numé a categoriel
+
+
+
+3) Traitement des valeurs manquants !:
+	- supprimer l'attribut
+	- supprimer l'instance( ligne)
+	- remplacer par une statistique (mode pour var categoriel, moyenne... pour  var numériques)
+	- tirée au hasrd en respectant la distribution
+	- pour var categ, creer un symbole pour representer les vals manquantes
+
+4) lors de la prediction il faut enlever les attributs :pledged	backers	state et laisser le model les trouve
+
